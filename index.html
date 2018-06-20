@@ -29,29 +29,32 @@
 
 		<!-- Altera e Diminui fonte-->
 		<script type="text/javascript" src="js/fonte.js"></script>
+
+		<!-- Auto contraste -->
+		<link rel="stylesheet" href="css/contraste.css">
 	</head>
 
 
 <body>
   <header>
-	<div class="acessibilidade">
+	<div class="menu-acessibilidade">
 		<div class="menu-esquerda">
-			<a href="#menu" class="acessibilidade">
+			<a href="#menu" class="acessibilidade" accesskey="1" tabindex="1">
 				<span>1.Ir para o menu</span>
 			</a>
-			<a href="#conteudo"class="acessibilidade">
+			<a href="#conteudo"class="acessibilidade" accesskey="2" tabindex="2">
 				<span>2. Ir para o conteúdo</span>
 			</a>
 		</div>
 		<div class="menu-direita">
-			<a href="#" class="acessibilidade" onClick="fonte('a');">
+			<a href="#" class="acessibilidade" onClick="fonte('a');" tabindex="3">
 				<span>A+</span>
 			</a>
-			<a href="#" class="acessibilidade" onClick="fonte('d');">
+			<a href="#" class="acessibilidade" onClick="fonte('d');" tabindex="4">
 				<span>a-</span>
 			</a>
-			<a href="#" href="#altocontraste" id="altocontraste" onclick="window.toggleContrast()" onkeydown="window.toggleContrast()" class="acessibilidade">
-				<span>Contraste</span>
+			<a href="#altocontraste" id="altocontraste" accesskey="3" onclick="window.toggleContrast()" onkeydown="window.toggleContrast()" tabindex="5">
+				Alto contraste
 			</a>
 		</div>
 	</div>
@@ -59,29 +62,29 @@
 	<div class="fundomenu">
    <div class="redes-sociais">
 
-		<a href="www.google.com"> <i class="fa fa-facebook-f fb"  ></i></a>
-		<a href="www.google.com"> <i class="fa fa-twitter tt"></i></a>
-		<a href="www.google.com"> <i class="fa fa-instagram it"></i></a>
-		<a href="www.google.com"> <i class="fa fa-snapchat-ghost sc"></i></a>
-		<a href="www.google.com"> <i class="fa fa-youtube yt"></i></a>
-		<a href="www.google.com"> <i class="fa fa-spotify sp"></i></a>
-		<a href="www.google.com"> <i class="fa fa-tumblr tb"></i></a>
+		<a href="www.google.com" tabindex="6"> <i class="fa fa-facebook-f fb"  ></i></a>
+		<a href="www.google.com" tabindex="7"> <i class="fa fa-twitter tt"></i></a>
+		<a href="www.google.com" tabindex="8"> <i class="fa fa-instagram it"></i></a>
+		<a href="www.google.com" tabindex="9"> <i class="fa fa-snapchat-ghost sc"></i></a>
+		<a href="www.google.com" tabindex="10"> <i class="fa fa-youtube yt"></i></a>
+		<a href="www.google.com" tabindex="11"> <i class="fa fa-spotify sp"></i></a>
+		<a href="www.google.com" tabindex="12"> <i class="fa fa-tumblr tb"></i></a>
 
 </div>
 </div>
-	<div class="logo acessibilidade"><a>Madison Becsi</a></div>
+	<div class="logo"><a class="acessibilidade" tabindex="13">Madison Becsi</a></div>
 
 	<div class="toggle">
 		<i class="fa fa-bars menu"></i>
 	</div>
 
     <ul class='menu' id="menu">
-        <li><a href='http://ressacadepalavras.com' class="acessibilidade">Home</a></li>
-        <li><a href='http://ressacadepalavras.com/sobre' class="acessibilidade">Sobre</a></li>
-        <li><a href='http://ressacadepalavras.com/search/label/Resenhas?max-results=6' class="acessibilidade">Música</a></li>
-        <li><a href='http://ressacadepalavras.com/search/label/Textos?max-results=6' class="acessibilidade">Galeria</a></li>
-		<li><a href='http://ressacadepalavras.com/search/label/Textos?max-results=6' class="acessibilidade">Agenda</a></li>
-        <li><a href='http://ressacadepalavras.com/search/label/Contos?max-results=6' class="acessibilidade">Contato</a></li>
+        <li><a href='http://ressacadepalavras.com' class="acessibilidade" tabindex="14">Home</a></li>
+        <li><a href='http://ressacadepalavras.com/sobre' class="acessibilidade" tabindex="15">Sobre</a></li>
+        <li><a href='http://ressacadepalavras.com/search/label/Resenhas?max-results=6' class="acessibilidade" tabindex="16">Música</a></li>
+        <li><a href='http://ressacadepalavras.com/search/label/Textos?max-results=6' class="acessibilidade" tabindex="17">Galeria</a></li>
+		<li><a href='http://ressacadepalavras.com/search/label/Textos?max-results=6' class="acessibilidade" tabindex="18">Agenda</a></li>
+        <li><a href='http://ressacadepalavras.com/search/label/Contos?max-results=6' class="acessibilidade" tabindex="19">Contato</a></li>
 	</ul>
 </header>
 <div id="topo">
@@ -103,7 +106,7 @@
 	})
 </script>
 <script  src="js/index.js"></script>
-<script src="js/auto-contraste.js"></script>
+<script src="js/contraste.js"></script>
 
 </body>
 
