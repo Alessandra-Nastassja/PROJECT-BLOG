@@ -20,12 +20,15 @@
 		<!-- Favicon -->
 		<link rel="shortcut icon" href="img/apple.png" type="image/x-icon">
 		<link rel="icon" href="img/apple.png" type="image/x-icon">
-		
+
 		<!-- Estilo -->
 		<link rel="stylesheet" href="css/estilo.css">
 
 		<!-- Icons -->
 		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+		<!-- Altera e Diminui fonte-->
+		<script type="text/javascript" src="js/fonte.js"></script>
 	</head>
 
 
@@ -33,21 +36,21 @@
   <header>
 	<div class="acessibilidade">
 		<div class="menu-esquerda">
-			<a href="#menu">
+			<a href="#menu" class="acessibilidade">
 				<span>1.Ir para o menu</span>
 			</a>
-			<a href="#conteudo">
+			<a href="#conteudo"class="acessibilidade">
 				<span>2. Ir para o conteúdo</span>
 			</a>
 		</div>
 		<div class="menu-direita">
-			<a href="#">
+			<a href="#" class="acessibilidade" onClick="fonte('a');">
 				<span>A+</span>
 			</a>
-			<a href="#">
+			<a href="#" class="acessibilidade" onClick="fonte('d');">
 				<span>a-</span>
 			</a>
-			<a href="#" href="#altocontraste" id="altocontraste" onclick="window.toggleContrast()" onkeydown="window.toggleContrast()">
+			<a href="#" href="#altocontraste" id="altocontraste" onclick="window.toggleContrast()" onkeydown="window.toggleContrast()" class="acessibilidade">
 				<span>Contraste</span>
 			</a>
 		</div>
@@ -66,24 +69,24 @@
 
 </div>
 </div>
-	<div class="logo"><a>Madison Becsi</a></div>
-	
+	<div class="logo acessibilidade"><a>Madison Becsi</a></div>
+
 	<div class="toggle">
 		<i class="fa fa-bars menu"></i>
 	</div>
-	
+
     <ul class='menu' id="menu">
-        <li><a href='http://ressacadepalavras.com'>Home</a></li>
-        <li><a href='http://ressacadepalavras.com/sobre'>Sobre</a></li>
-        <li><a href='http://ressacadepalavras.com/search/label/Resenhas?max-results=6'>Música</a></li>
-        <li><a href='http://ressacadepalavras.com/search/label/Textos?max-results=6'>Galeria</a></li>
-		<li><a href='http://ressacadepalavras.com/search/label/Textos?max-results=6'>Agenda</a></li>
-        <li><a href='http://ressacadepalavras.com/search/label/Contos?max-results=6'>Contato</a></li>
+        <li><a href='http://ressacadepalavras.com' class="acessibilidade">Home</a></li>
+        <li><a href='http://ressacadepalavras.com/sobre' class="acessibilidade">Sobre</a></li>
+        <li><a href='http://ressacadepalavras.com/search/label/Resenhas?max-results=6' class="acessibilidade">Música</a></li>
+        <li><a href='http://ressacadepalavras.com/search/label/Textos?max-results=6' class="acessibilidade">Galeria</a></li>
+		<li><a href='http://ressacadepalavras.com/search/label/Textos?max-results=6' class="acessibilidade">Agenda</a></li>
+        <li><a href='http://ressacadepalavras.com/search/label/Contos?max-results=6' class="acessibilidade">Contato</a></li>
 	</ul>
 </header>
 <div id="topo">
 			<div class="content">
-				<a>Casulty</br> of Love</a>
+				<a class="acessibilidade">Casulty</br> of Love</a>
 				<a href="http://www.google.com"><img src="images/botao.png"></a>
 			</div>
 		</div>
