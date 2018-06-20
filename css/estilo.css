@@ -14,12 +14,6 @@ header {
 	top:0px;
 }
 
-.acessibilidade {
-	width:100%;
-	height:40px;
-	background-color:#1c1c1c;
-}
-
 #topo {
 	height: 509px;
 	max-width:100%;
@@ -52,6 +46,7 @@ header {
 .content img {
 	margin-top:5px;
 }
+/* MENU ACESSIBILIDADE */
 .menu-acessibilidade {
 	width:100%;
 	height:40px;
@@ -84,6 +79,8 @@ header {
 	height:100px;
 	background-color:#fff;
 }
+/* FIM MENU ACESSIBILIDADE */
+
 .slide {
 	width:1090px;
 	position:relative;
@@ -1030,7 +1027,7 @@ time em {
 	height: 310px;
 	max-width:100%;
 	background: #1e0714;
-	margin-top:40px;
+	/*margin-top:40px;*/
 	background-attachment: fixed;
 	background: #251e51 url('https://3.bp.blogspot.com/-aTpWkxoYs7I/WyWjtToi63I/AAAAAAAAEwQ/O4JpSA-nzV4VjubJOFsuZsrxlzdcHmt8ACLcBGAs/s1600/fundo1.png') fixed ;
 	background-attachment: fixed;
@@ -5168,4 +5165,75 @@ body{background:#ededed;}
 		margin: 0 auto;
 	}
 
+}
+/* GALERIA */
+.content6{
+	width: 100%;
+	position: relative;
+	height: 200px;
+	margin: 0 auto;
+}
+.photo-section-1{
+	float: left;
+	padding: 30px;
+}
+.photo1{
+	width: 310px;
+}
+#photo1{
+	height: 310px;
+}
+.content7{
+	width: 100%;
+	position: relative;
+	height: 450px;
+	margin: 0 auto;
+}
+h2.galeria,
+h2.agenda{
+	color:#421835;
+	position:relative;
+	font-family:'Work Sans', sans-serif;
+	font-size:45px;
+	font-weight:700;
+	letter-spacing:0.5px;
+	text-transform:uppercase;
+	padding-bottom:36px;
+	text-align: center;
+
+}
+/* FIM GALERIA */
+
+/* AGENDA */
+.section-agenda{
+	width: 93.2%;
+	height: 500px;
+	background: #444;
+	/*background: #000 url('https://2.bp.blogspot.com/-XjL88eGW_ec/WwM4JNaQkSI/AAAAAAAAEuI/FhqMZFWi-rk5-8Ls7aMfvHfc7V2qGa7DwCLcBGAs/s1600/topo.png') no-repeat;*/
+	padding: 50px;
+}
+.section-agenda p{
+	color: #fff;
+	font-family:'Work Sans', sans-serif;
+	font-size:20px;
+	font-weight:400;
+	letter-spacing:0.5px;
+	text-transform:uppercase;
+}
+.section-agenda-content{
+	height: 50px;
+}
+.agenda-local{
+	padding-left: 460px;
+}
+.agenda-vendas{
+	margin-left: 200px;
+	background: #333;
+	border: 1px solid #fff;
+	text-transform: uppercase;
+	padding: 10px;
+	border-radius: 15px;
+}
+#agenda-content1{
+	margin-top: 35px;
 }
