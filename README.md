@@ -14,6 +14,12 @@ A artista Madison Becsi, gostaria de divulgar melhor o seu trabalho em um blog. 
 
 > Blog desenvolvido com o uso de ferramentas acessíveis. 
 
+### *Tecnologias usadas:* 📌 
+
+- [HTML]();
+- [CSS]();
+- [Javascript]().
+
 ****** 
 ### Desenvolvedoras:
 [Alessandra Nastassja](https://github.com/Alessandra-Nastassja),
